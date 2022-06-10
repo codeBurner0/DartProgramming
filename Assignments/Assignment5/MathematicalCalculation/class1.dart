@@ -30,7 +30,9 @@ class Math {
   String Comparision(int num1, int num2) {
     if (num1 > num2)
       return "$num1 is greater then $num2.";
-    else
+    else if (num2 > num1)
       return "$num2 is greater then $num1.";
+    else
+      return "$num2 and $num1 Both are equal.";
   }
 }

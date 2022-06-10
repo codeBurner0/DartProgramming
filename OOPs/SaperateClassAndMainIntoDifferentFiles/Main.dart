@@ -10,7 +10,12 @@ void main() {
   var obj1 = new Car("I20", "red", 18, 150);
   print("Car Model: ${obj1.model}");
   print("Car Color: ${obj1.color}");
-  print("Car Gears: ${obj1.gears}");
+  print("Car gears: ${obj1.gears}");
+  print(
+      "Car ChessisNo: ${obj1.getChessisNo}"); //object can't access the private data directly
+  // so, we have to use getter function.
+  // print("Car gear update: $obj.")
+  print("Car updated chessisNo: ${obj1.setChessisNo = 45677}");
   obj1.carSpeed();
   print(M.pow(2, 3));
 }

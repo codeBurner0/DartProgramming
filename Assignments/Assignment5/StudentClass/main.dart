@@ -1,5 +1,7 @@
 import 'class.dart';
+
 import 'dart:io';
+import 'class.dart';
 
 void main() {
   // taking values from the user
@@ -19,10 +21,10 @@ void main() {
 // create objects and print the objects values
   var stu1 = new Student(name, Branch, RollNo, DOB, BloodGroup, MobileNo);
   print("The deatil of the Student is:- ");
-  print("Student Name: ${stu1.name}");
-  print("Student Branch: ${stu1.Branch}");
-  print("Student RollNo: ${stu1.RollNo}");
-  print("Student DOB: ${stu1.DOB}");
-  print("Student BloodGroup: ${stu1.BloodGroup}");
-  print("Student MobileNo: ${stu1.MobileNo}");
+  print("Student Name: ${stu1.name}}");
+  print("Student Branch: ${stu1.Branch}}");
+  print("Student RollNo: ${stu1.RollNo}}");
+  print("Student DOB: ${stu1.DOB}}");
+  print("Student BloodGroup: ${stu1.BloodGroup}}");
+  print("Student MobileNo: ${stu1.MobileNo}}");
 }

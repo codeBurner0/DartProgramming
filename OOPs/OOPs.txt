@@ -50,4 +50,38 @@
     5. has no return type.
 
 
+    Data Encapsulation:-
+    if you want to make your data as a private data
+      So, create your data variable with underscore.
+      _rollNo --> This _ means the dta will behave like a private data.
+      Now, you can't access your data directly.
+    then, how you can access the private data ?
+      In order to access the private data, we will define some function or member function
+      Note:- Objects can't access the private data, only member function has access to the private data.
+      Getter and Setter are those function inside the class that have access to private data.
+      1. To use getter function 
+        -type get keyword and function name 
+        -example: int? get getChasis => _ChassisNo;
+      2. To use setter function
+        -we upadte the data with this function
+        -set setChessis(int? value) => _ChesisNo =value;
+      For code go to SaperateClassAndMain folder in oops folder.
+
+
+      Inheritance:-
+      -if code is written already in another class then we can inherit this class within class.
+      -inherit means one class contains all the functions, properties by using extends keyword
+      -types of inheritance
+        1.single inheritance
+        2.Multilevel inheritance
+        3.Hierarchical inheritance
+      -For code go to oops folder.
+
+
+
+      
+
+
+
+
 
