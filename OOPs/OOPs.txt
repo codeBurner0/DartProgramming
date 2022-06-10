@@ -1,0 +1,53 @@
+    OOP(Object oriented programming):-
+    
+      OOPs refers to languages that uses objects in programming. Object-oriented 
+    programming used to implement real-world entities like inheritance, hiding, 
+    polymorphism etc in programming.The main aim of OOP is to bind together the 
+    data and the functions that operate on them so that no other part of the code 
+    can access this data except that function. 
+
+    
+    Difference between object oriented and object based programming language:-
+    
+    1.Object-Oriented Languages (OOP) follow all the concepts of OOPs whereas, 
+    Object-based languages don’t follow all the concepts of OOPs like inheritance and polymorphism.
+    2.Object-oriented languages do not have the inbuilt objects whereas Object-based languages have 
+    the inbuilt objects, for example, JavaScript has window object.
+    include VB etc.
+    3.Example:-OOPs(java,python,c++),OBP(JavaScript,CSS)
+
+
+    Object created programming system:-
+    It is a system in which we can only create objects.we can't use these objects,
+    Example:-HTML
+
+
+    Difference between class and object
+
+    Class:-
+    1.It is a template which shows the behavior and functioning of an object.
+    2.it is not a real world entity.
+    3.It doesn't occupy memory.
+    4.it is a collection of objects.
+    5..Example:-Animal,Vehicles,etc.
+
+    Object:- 
+    1.It has attribute and behaviour.
+    2.It is a real world entity.
+    3.It occupies memory.
+    4.it has three things
+        a.identity(name of dog)
+        b.behaviour(eat,run)
+        c.attribute(age,color)
+    5.Example:-Dog,car,etc.
+
+    
+    Constructor:-
+    1.used to initialize te data
+    2.name should same as class.
+    3.it will be called automatically.
+    4.special funtion create objects at the same time and initialize the object.
+    5. has no return type.
+
+
+
